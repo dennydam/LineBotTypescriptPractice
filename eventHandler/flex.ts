@@ -7,7 +7,7 @@ export const flexEventHandler = async (event: WebhookEvent): Promise<MessageAPIR
   if (event.type !== 'message' || event.message.type !== 'text') {
     return
   }
-  console.log('flexEventHandler🏐')
+
 
   // Process all message related variables here.
   const { replyToken } = event
